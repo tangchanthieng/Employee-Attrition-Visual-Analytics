@@ -1,40 +1,46 @@
 # Employee-Attrition-Visual-Analytics
 
 ## 1. Project Overview  
-This project explores **employee attrition patterns** using a dataset of 1,470 employees. Leveraging **Power BI**, I developed an interactive dashboard to visualize key workforce trends such as attrition rate, job satisfaction, demographic breakdowns, promotion opportunities, and compensation dynamics.  
+Employees are the backbone of any organization. Its performance is heavily based on the quality of the employees and retaining them. With employee attrition, organizations are faced with a number of challenges:
 
-The dashboard provides a holistic view of workforce stability and highlights the risk factors contributing to turnover.  
+- Expensive in terms of both money and time to train new employees
+- Loss of experienced employees
+- Impact on productivity
+- Impact on profit
+ 
+The primary objective of this project was to answer one critical business question: **“What factors are driving employee attrition, and how can organizations design effective retention strategies?”** By analyzing satisfaction levels, job roles, demographics, and promotion/compensation patterns, the project aims to deliver insights that HR leaders can use to reduce turnover and improve employee engagement.  
 
-## 2. Objective  
-The primary objective of this project was to answer one critical business question:  
-**“What factors are driving employee attrition, and how can organizations design effective retention strategies?”**  
+## 3. Process Overview
 
-By analyzing satisfaction levels, job roles, demographics, and promotion/compensation patterns, the project aims to deliver insights that HR leaders can use to reduce turnover and improve employee engagement.  
+### 3.1 Business Objective
+The organization aims to understand the factors driving employee attrition to reduce turnover, retain talent, and enhance both productivity and profitability. Addressing attrition is critical to maintaining organizational performance and sustaining competitive advantage.
 
-## 3. Process Overview  
-- **Data Preparation**: Cleaned and structured HR dataset (1,470 records, multiple categorical and numerical attributes).  
-- **Dashboard Development**: Built interactive visualizations in **Power BI Desktop** to explore attrition distribution across age, gender, job role, and tenure.  
-- **Analytics**:  
-  - Attrition rate: **16% overall** – within the industry benchmark but skewed toward early-career employees.  
-  - Age factor: Attrition peaks at **25–30 years**, stabilizes after **30–40 years**.  
-  - Gender factor: Workforce is **60:40 male-to-female**, with imbalance pronounced in R&D and HR.  
-  - Role factor: **Sales reps, executives, and lab technicians** show the highest attrition risk.  
-  - Satisfaction levels: Hover around **2.7/4 (~68%)**, suggesting lukewarm engagement.  
-  - Compensation & promotion: Salary hikes alone don’t prevent turnover; promotion inequities by marital status hint at bias risks.  
-- **Recommendations**: Targeted retention for early-career staff, role redesign in sales, promotion transparency audits, and enhanced manager training.  
+### 3.2 Scope
+This analysis will use the HR dataset (emp_attrition.csv) to explore employee attrition patterns. The focus will be on identifying key trends, uncovering underlying drivers, and presenting findings through Power BI visualizations for stakeholder review.
 
-## 4. How to Use this Repository  
-1. Clone or download this repository.  
-2. Open the Power BI file (`Employee_Attrition.pbix`) in **Power BI Desktop**.  
-3. Explore the dashboard through interactive filters (job role, age, gender, etc.).  
-4. Use the insights to guide HR decision-making or as a template for similar workforce analytics projects.  
+### 3.3 Business Requirements
+The project requires a department-wise gender distribution analysis to detect imbalances, an assessment of attrition rates based on travel frequency, and a comparison of age distributions between employees who left and those who stayed. Additionally, it will identify the most significant attrition drivers, focusing on Department, OverTime, JobLevel, and JobSatisfaction.
 
-## 5. Feedback and Contributions  
+### 3.4 Success Criteria
+The analysis will be successful if it produces clear, interactive visualizations that directly address the research questions. Insights must also be actionable, enabling HR to design effective retention strategies and improve workforce stability.
+
+## 4. User stories and Acceptance criteria
+<img width="1200" height="536" alt="image" src="https://github.com/user-attachments/assets/843433e6-45e8-431a-bf05-b8e1e57a3bd7" />
+
+## 5. Flowchart
+<img width="768" height="755" alt="EmployeeAttrition_PowerBI_Flowchart" src="https://github.com/user-attachments/assets/73d7fc5b-cda9-45d4-a355-76ab2c5e7720" />
+
+## 6. Feedback and Contributions  
 This project was created as part of my **data analytics portfolio** to demonstrate skills in data visualization, business insights, and storytelling with Power BI.  
 
 - Feedback, suggestions, and pull requests are welcome.  
-- If you’d like to collaborate on extending this project (e.g., predictive modeling of attrition), feel free to open an issue or reach out.  
+- If you’d like to collaborate on extending this project (e.g., predictive modeling of attrition), feel free to open an issue or reach out.
+
+## 7. References
+Knowledge at Wharton. (2017, July 19). Why employee turnover costs more than you think. University of Pennsylvania. https://knowledge.wharton.upenn.edu/article/why-employee-turnover-costs-more-than-you-think/
+
+Plum HQ. (2023, March 14). The impact of attrition on productivity: Costs beyond hiring. Plum. https://www.plumhq.com/blog/impact-of-attrition-on-productivity
+
+Quest Journals. (2020). Study of employee attrition and its footprint on organization performance. Quest Journal of Research in Humanities and Social Science, 13(3), 122–126. https://www.questjournals.org/jrhss/papers/vol13-issue3/1303122126.pdf
 
 ---
-
-⚡ **Highlight:** This project bridges technical BI skills with business strategy—showing not just “what” the data says, but also “why it matters” for organizational decision-making.  
